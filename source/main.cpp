@@ -33,10 +33,6 @@ int main(int argc, char **argv) {
     if (mcpFd >= 0) {
         int out = 0;
         IOS_Ioctl(mcpFd, 100, &request, sizeof(request), &out, sizeof(out));
-        
-        int in = 0xFA; // IPC_CUSTOM_START_USB_LOGGING       
-        IOS_Ioctl(mcpFd, 100, &in, sizeof(in), &out, sizeof(out));
-
         IOS_Close(mcpFd);
     }
 
