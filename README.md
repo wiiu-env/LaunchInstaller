@@ -1,9 +1,9 @@
 # LaunchInstaller
 
 ## Usage
-Place the `90_launch_installer.rpx` in the `[ENVIROMENT]/modules/setup` folder and run the [EnvironmentLoader](https://github.com/wiiu-env/EnvironmentLoader).
-Requires [MochaPayload](https://github.com/wiiu-env/MochaPayload) as a setup module in `[ENVIROMENT]/modules/setup`.
-Will automatically launch `sd:/wiiu/apps/payload_loader_installer.rpx`
+Place the `90_launch_installer.rpx` in the `[ENVIRONMENT]/modules/setup` folder and run the [EnvironmentLoader](https://github.com/wiiu-env/EnvironmentLoader).
+Requires [MochaPayload](https://github.com/wiiu-env/MochaPayload) as a setup module in `[ENVIRONMENT]/modules/setup`.
+Will automatically launch `sd:/wiiu/apps/PayloadLoaderInstaller.wuhb`
 
 ## Building
 
